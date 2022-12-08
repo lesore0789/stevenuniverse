@@ -67,9 +67,10 @@ header {
   padding-left: 20px;
 }
 
-.title-container, .pillars, .survey h1, .survey h4 {
+.title-container, .pillars, .survey h1, .survey h4, .resources h1 {
   font-family: 'Knewave', cursive;
   color:rgb(33, 33, 33);
+  letter-spacing: 5px;
 }
 
 .pillars {
@@ -78,7 +79,7 @@ header {
   padding: 30px;
 }
 
-.survey {
+.survey, .resources {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -124,4 +125,32 @@ button {
   border-radius: 4px;
   box-shadow:4px 4px 10px rgba(0,0,0,0.1);
   border-color: rgb(33, 33, 33);
+}
+
+main.resources {
+  padding: 30px 0;
+}
+
+ul.links {
+  list-style: none;
+  padding: 30px 0;
+}
+
+ul.links a {
+  font-family: 'Jost', sans-serif;
+  text-decoration: none;
+  color:rgb(33, 33, 33);
+}
+
+ul.links li {
+  padding: 20px 0;
+}
+
+ul.links li a {
+  transition: all 0.3s ease 0s;
+}
+
+ul.links li a:hover {
+  font-weight: bold;
+  text-decoration: underline overline;
 }
