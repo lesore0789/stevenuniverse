@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: bisque;
 }
 
 header {
@@ -14,10 +15,12 @@ header {
 
 .logo {
   margin-right: auto;
+  background-color: aqua;
 }
 
 .logo img {
   height: 120px;
+  background-color: aqua;
 }
 
 .nav_links {
@@ -28,11 +31,13 @@ header {
 .nav_links a {
   font-family: 'Jost', sans-serif;
   text-decoration: none;
-  color:rgb(33, 33, 33)
+  color:rgb(33, 33, 33);
+  background-color: aqua;
 }
 
 .nav_links li {
   padding: 0px 20px;
+  background-color: aqua;
 }
 
 .nav_links li a {
@@ -41,4 +46,34 @@ header {
 
 .nav_links li a:hover {
   font-weight: bold;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.img-container img {
+  height: 500px;
+}
+
+.title-container .fan {
+  text-align: right;
+}
+
+.title-container h1 {
+  padding-left: 20px;
+}
+
+.title-container, .pillars {
+  font-family: 'Knewave', cursive;
+  color:rgb(33, 33, 33);
+}
+
+.pillars {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
 }
