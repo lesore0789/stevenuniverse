@@ -67,7 +67,7 @@ header {
   padding-left: 20px;
 }
 
-.title-container, .pillars, .survey h1, .survey h4, .resources h1 {
+.title-container, .pillars, .survey h1, .survey h4, .resources h1, .characters h1 {
   font-family: 'Knewave', cursive;
   color:rgb(33, 33, 33);
   letter-spacing: 5px;
@@ -153,4 +153,21 @@ ul.links li a {
 ul.links li a:hover {
   font-weight: bold;
   text-decoration: underline overline;
+}
+
+.characters h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images img, .images2 img {
+  height: 400px;
+}
+
+.images, .images2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
 }
